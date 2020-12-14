@@ -1,0 +1,146 @@
+
+.section1 {
+    background-image: url(./img/main.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: var(--page-font-color2);
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+}
+
+.s1-text {
+    padding: 10% 30%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 2.4rem;
+}
+
+.s1-btn {
+    margin-top: 1rem;
+}
+
+.s1-text h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin:.5rem;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 250px);
+    padding: .5rem 23%;
+    grid-column-gap: .6rem;
+    grid-row-gap: .6rem;
+}
+
+.s2-item {
+    cursor: pointer;
+    border-radius: .3rem;
+    position: relative;
+    border: .1rem rgba(71, 65, 65, 0.651) solid;
+}
+
+.s2-item-text {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    text-align: right;
+    width: 100%;
+    padding: .5rem;
+    background-image: linear-gradient(to bottom, transparent,rgba(0, 0, 0, 0.582));
+    color: white;
+}
+
+.s2-i-t-main {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+
+
+.slides {
+    background-image: url(./img/slides.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.glasses {
+    background-image: url(./img/glasses.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.sneakers {
+    background-image: url(./img/sneakers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.watches {
+    background-image: url(./img/watches.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.shoes {
+    background-image: url(./img/shoes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.belts {
+    background-image: url(./img/belts.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: none;
+    padding: 1rem 0rem;
+}
+
+.s3-item {
+    margin: .3rem .4rem;
+    height: 20rem;
+    border-radius: .3rem;
+    position: relative;
+    border: .1rem rgba(71, 65, 65, 0.651) solid;
+
+}
+
+.s3-item-text {
+    position: absolute; 
+    bottom: 0%;
+    right: 0%;
+    text-align: right;
+    width: 100%;
+    padding: .5rem;
+    background-image: linear-gradient(to bottom, transparent,rgba(0, 0, 0, 0.582));
+    color: white;
+}
+
+
+
+.s3-i-t-main {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.women {
+    background-image: url(./img/women.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.men {
+    background-image: url(./img/men.jpg);
+    background-size: cover;
+    background-position: top;
+}
+

@@ -1,0 +1,59 @@
+.section1 {
+    background-image: url(../styles/img/tripleS.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: var(--page-font-color2);
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+.s1-text {
+    padding: 15% 25%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    
+}
+
+.s1-text h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin:.5rem;
+}
+
+.s2-text {
+    padding: 2% 20%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: rgb(206, 204, 204);
+}
+.section3 {
+    background-color: gainsboro;
+    width: 50%;
+    margin-left: 20rem;
+}
+
+.hit-me {
+    list-style: none;
+    padding: 2rem 5rem;
+    line-height: 2rem;
+    /* margin: 20rem; */
+}
+
+.hit-me span {
+    font-weight: 700;
+}
+.section4 {
+    background-color: gainsboro;
+    margin: 2rem;
+}
+
+#map {
+    width: 100px;
+    height: 500px;
+}

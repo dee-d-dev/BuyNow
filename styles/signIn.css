@@ -1,0 +1,77 @@
+.section1{
+    width: 100%;
+    padding: 0% 15%;
+    position: relative;
+}
+
+.reg-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: .5rem 1rem;
+    font-weight: 600;
+}
+
+.reg-nav li {
+    margin-right: 1.5rem;
+}
+
+.form-text {
+    padding: 0% 35%;
+    position: absolute;
+    left: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.form-text h3 {
+    font-size: 2rem;
+}
+
+.form-text p {
+    position: absolute;
+    left: 40%;
+    margin-top: .6rem;
+}
+
+form {
+    position: absolute;
+    top: 6rem;
+    left: 28rem;
+}
+
+input {
+    padding: .5rem;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 2rem 0;
+    width: 22rem;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+.sign-in {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1.2rem;
+}
+
+.sign-in-1 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: .3rem;
+}
+
+.sign-in-2 {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    border-radius: .3rem;
+}

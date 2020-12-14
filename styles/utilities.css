@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --page-white: rgb(255, 255, 255);
+    --page-black: black;
+    --page-font-color1: rgb(255, 255, 255);
+    --page-font-color2: black;
+    --page-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--page-white);
+    border-radius: .5rem;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: .5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--page-white);
+    padding: .3rem;
+    /* position: fixed; */
+}
+
+
+body {
+    font-size: 16px;
+    color: var(--page-font-color2);
+    font-family: var(--page-font-family);
+    overflow-x: hidden;
+    padding: 0 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--page-black);
+}
+
+.btn {
+    padding: .8rem 1.5rem;
+    background-color: var(--page-black);
+    border: none;
+    border-radius: .2rem;
+    color: var(--page-font-color1);
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: .5rem 1rem;
+}
+
+.nav-list {
+    margin-left: 1rem;
+}
+
+.contact {
+    padding: 5% 15%;
+    padding-bottom: 0;
+}
+
+.c-text {
+    text-align: center;
+    font-size: .9rem;
+}
+
+.c-text h1 {
+    font-weight: 500;
+}
+.c-text p {
+    margin-bottom: 2rem;
+}
+
+.c-btn {
+    margin-top: 1rem;
+}
+
+hr {
+    margin: 2rem;
+}
