@@ -20,6 +20,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.section2 {
+    margin-top: 1rem;
+}
+
 .section3 {
     display: grid;
     grid-template-columns: repeat(4, 200px);
@@ -27,7 +31,7 @@
     grid-column-gap: .4rem;
     grid-row-gap: 1rem;
     padding: 1rem 20%;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .item-preview{
@@ -41,7 +45,7 @@
 }
 
 .item-img {
-    background-image: url(../styles/img/watches.jpg);
+    background-image: url(../styles/img/watches/watches.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -49,7 +53,7 @@
 }
 
 .img-1 {
-    background-image: url(../styles/img/watch2.jpg);
+    background-image: url(../styles/img/watches/2.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -57,7 +61,7 @@
 }
 
 .img-2 {
-    background-image: url(../styles/img/watch1.jpg);
+    background-image: url(../styles/img/watches/1.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -65,7 +69,7 @@
 }
 
 .img-3 {
-    background-image: url(../styles/img/watches.jpg);
+    background-image: url(../styles/img/watches/3.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -73,15 +77,15 @@
 }
 
 .img-4 {
-    background-image: url(../styles/img/watch4.jpg);
+    background-image: url(../styles/img/watches/4.jpg);
     width: 200px;
     height: 150px;
-    background-size: cover;
-    background-position: center;
+    background-size: 85%;
+    background-position: 40% 30%;
 }
 
 .img-5 {
-    background-image: url(../styles/img/watch3.jpg);
+    background-image: url(../styles/img/watches/watch3.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -89,26 +93,26 @@
 }
 
 .img-6 {
-    background-image: url(../styles/img/watch2.jpg);
-    width: 200px;
-    height: 150px;
-    background-size: cover;
-    background-position: top;
-}
-
-.img-7 {
-    background-image: url(../styles/img/watch3.jpg);
-    width: 200px;
-    height: 150px;
-    background-size: cover;
-    background-position: left;
-}
-
-.img-8 {
-    background-image: url(../styles/img/watches.jpg);
+    background-image: url(../styles/img/watches/6.jpg);
     width: 200px;
     height: 150px;
     background-size: contain;
+    background-position: center;
+}
+
+.img-7 {
+    background-image: url(../styles/img/watches/7.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 80%;
+    background-position: center;
+}
+
+.img-8 {
+    background-image: url(../styles/img/watches/8.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
     background-position: center;
 }
 

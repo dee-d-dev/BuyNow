@@ -20,6 +20,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.section2 {
+    margin-top: 1rem;
+}
+
 .section3 {
     display: grid;
     grid-template-columns: repeat(4, 200px);
@@ -27,7 +31,7 @@
     grid-column-gap: .4rem;
     grid-row-gap: 1rem;
     padding: 1rem 20%;
-    margin-top: 3rem;
+    margin-top: .5rem;
 }
 
 .item-preview{
@@ -46,6 +50,70 @@
     height: 150px;
     background-size: cover;
     background-position: center;
+}
+
+.img-1 {
+    background-image: url(../styles/img/glasses/7.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 120%;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url(../styles/img/glasses/2.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url(../styles/img/glasses/3.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-4 {
+    background-image: url(../styles/img/glasses/4.jpg);
+    width: 200px;
+    height: 150px;
+    background-size:cover;
+    background-position: center;
+}
+
+.img-5 {
+    background-image: url(../styles/img/glasses/6.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 107%;
+    background-position: center;
+}
+
+.img-6 {
+    background-image: url(../styles/img/glasses/9.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 130%;
+    background-position: center;
+}
+
+.img-7 {
+    background-image: url(../styles/img/glasses/10.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: 55%;
+}
+
+.img-8 {
+    background-image: url(../styles/img/glasses/8.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: top;
 }
 
 .item-img img {

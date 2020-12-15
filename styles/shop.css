@@ -50,6 +50,165 @@
     width: 100%;
 }
 
+.img-1 {
+    background-image: url(../styles/img/belts/2.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-2 {
+    background-image: url(../styles/img/slides/4.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-3 {
+    background-image: url(../styles/img/sneakers/lebron.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-4 {
+    background-image: url(../styles/img/watches/7.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+    background-position: center;
+}
+
+.img-5 {
+    background-image: url(../styles/img/pyr1.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-6 {
+    background-image: url(../styles/img/glasses/4.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-7 {
+    background-image: url(../styles/img/shoes/2.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 92%;
+    background-position: center;
+}
+
+.img-8 {
+    background-image: url(../styles/img/sneakers/red.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-9 {
+    background-image: url(../styles/img/watches/8.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-10 {
+    background-image: url(../styles/img/shirt.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 90%;
+    background-position: center;
+}
+
+.img-11 {
+    background-image: url(../styles/img/pyr3.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-12 {
+    background-image: url(../styles/img/backpack.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 72%;
+    background-position: bottom;
+}
+
+.img-13 {
+    background-image: url(../styles/img/glasses/2.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-14 {
+    background-image: url(../styles/img/slides/1.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-15 {
+    background-image: url(../styles/img/lionshirt.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.img-16 {
+    background-image: url(../styles/img/slides/9.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: left;
+}
+
+.img-17 {
+    background-image: url(../styles/img/belts/hermes\ belt.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-18 {
+    background-image: url(../styles/img/sneakers/tripleS.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: top;
+}
+
+.img-19 {
+    background-image: url(../styles/img/sneakers/nike3.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-20 {
+    background-image: url(../styles/img/belts/4.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
 .item-img img {
     max-width: 100%;
 }

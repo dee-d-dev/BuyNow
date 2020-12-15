@@ -8,6 +8,7 @@
     color: var(--page-font-color2);
     margin-bottom: 1.5rem;
     border-radius: .5rem;
+    position: relative;
 }
 
 .s1-text {
@@ -19,7 +20,7 @@
 }
 
 .s1-btn {
-    margin-top: 1rem;
+    
 }
 
 .s1-text h2 {
@@ -41,7 +42,8 @@
     cursor: pointer;
     border-radius: .3rem;
     position: relative;
-    border: .1rem rgba(71, 65, 65, 0.651) solid;
+    border: .1rem rgba(161, 161, 161, 0.651) solid;
+
 }
 
 .s2-item-text {
@@ -63,37 +65,37 @@
 
 
 .slides {
-    background-image: url(./img/slides.jpg);
+    background-image: url(./img/slides/slides.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .glasses {
-    background-image: url(./img/glasses.png);
+    background-image: url(./img/glasses/glasses.png);
     background-size: cover;
     background-position: center;
 }
 
 .sneakers {
-    background-image: url(./img/sneakers.jpg);
+    background-image: url(./img/sneakers/sneakers.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .watches {
-    background-image: url(./img/watches.jpg);
+    background-image: url(./img/watches/watches.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .shoes {
-    background-image: url(./img/shoes.jpg);
+    background-image: url(./img/shoes/shoes.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .belts {
-    background-image: url(./img/belts.jpg);
+    background-image: url(./img/belts/belts.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -110,7 +112,7 @@
     height: 20rem;
     border-radius: .3rem;
     position: relative;
-    border: .1rem rgba(71, 65, 65, 0.651) solid;
+    border: .1rem rgba(161, 161, 161, 0.651) solid;
 
 }
 
@@ -133,13 +135,13 @@
 }
 
 .women {
-    background-image: url(./img/women.jpg);
+    background-image: url(./img/women2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .men {
-    background-image: url(./img/men.jpg);
+    background-image: url(./img/men2.jpg);
     background-size: cover;
     background-position: top;
 }

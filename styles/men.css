@@ -19,6 +19,9 @@
 ::-webkit-input-placeholder {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.section2 {
+    margin-top: 1rem;
+}
 
 .section3 {
     display: grid;
@@ -27,7 +30,7 @@
     grid-column-gap: .4rem;
     grid-row-gap: 1rem;
     padding: 1rem 20%;
-    margin-top: 3rem;
+    margin-top: .5rem;
 }
 
 .item-preview{
@@ -53,7 +56,7 @@
 }
 
 .img-1 {
-    background-image: url(../styles/img/shoes.jpg);
+    background-image: url(../styles/img/shoes/shoes.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -61,7 +64,7 @@
 }
 
 .img-2 {
-    background-image: url(../styles/img/slides.jpg);
+    background-image: url(../styles/img/slides/slides.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -69,7 +72,7 @@
 }
 
 .img-3 {
-    background-image: url(../styles/img/sneakers.jpg);
+    background-image: url(../styles/img/sneakers/sneakers.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -117,7 +120,7 @@
 }
 
 .img-9 {
-    background-image: url(../styles/img/watch2.jpg);
+    background-image: url(../styles/img/watches/watch2.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -125,7 +128,7 @@
 }
 
 .img-10 {
-    background-image: url(../styles/img/sneakers4.jpg);
+    background-image: url(../styles/img/sneakers/sneakers4.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;

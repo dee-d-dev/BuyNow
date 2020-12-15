@@ -19,6 +19,9 @@
 ::-webkit-input-placeholder {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.section2 {
+    margin-top: 1rem;
+}
 
 .section3 {
     display: grid;
@@ -27,7 +30,7 @@
     grid-column-gap: .4rem;
     grid-row-gap: 1rem;
     padding: 1rem 20%;
-    margin-top: 3rem;
+    margin-top: .5rem;
 }
 
 .item-preview{
@@ -41,7 +44,7 @@
 }
 
 .item-img {
-    background-image: url(../styles/img/lebron.jpg);
+    background-image: url(../styles/img/sneakers/lebron.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -49,7 +52,7 @@
 }
 
 .img-1 {
-    background-image: url(../styles/img/sneakers-item-1.jpg);
+    background-image: url(../styles/img/sneakers/sneakers-item-1.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -57,7 +60,7 @@
 }
 
 .img-2 {
-    background-image: url(../styles/img/bpm.jpg);
+    background-image: url(../styles/img/sneakers/bpm.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -65,7 +68,7 @@
 }
 
 .img-2 {
-    background-image: url(../styles/img/sneakers3.jpg);
+    background-image: url(../styles/img/sneakers/sneakers3.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -73,7 +76,7 @@
 }
 
 .img-3 {
-    background-image: url(../styles/img/sneakers2.jpg);
+    background-image: url(../styles/img/sneakers/sneakers2.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -81,7 +84,7 @@
 }
 
 .img-4 {
-    background-image: url(../styles/img/sneakers4.jpg);
+    background-image: url(../styles/img/sneakers/sneakers4.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -89,28 +92,28 @@
 }
 
 .img-5 {
-    background-image: url(../styles/img/red.jpg);
+    background-image: url(../styles/img/sneakers/red.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
     background-position: center;
 }
 .img-6 {
-    background-image: url(../styles/img/tripleS.jpg);
+    background-image: url(../styles/img/sneakers/tripleS.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
     background-position: top;
 }
 .img-7 {
-    background-image: url(../styles/img/nike.jpg);
+    background-image: url(../styles/img/sneakers/nike.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
     background-position: center;
 }
 .img-8 {
-    background-image: url(../styles/img/fila.jpg);
+    background-image: url(../styles/img/sneakers/fila.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -118,7 +121,7 @@
 }
 
 .img-9 {
-    background-image: url(../styles/img/nike3.jpg);
+    background-image: url(../styles/img/sneakers/nike3.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
@@ -126,7 +129,7 @@
 }
 
 .img-10 {
-    background-image: url(../styles/img/nike4.jpg);
+    background-image: url(../styles/img/sneakers/nike4.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;

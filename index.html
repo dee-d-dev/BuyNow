@@ -6,19 +6,68 @@
     <title>Shophere | Home</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/utilities.css">
+    <link rel="styles" href="styles/img/shophere.jpg">
+    <link rel="stylesheet" href="./styles/cart-page.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h2>Shophere</h2>
+            <!-- <h2>Shophere</h2> -->
+            <img src="styles/img/shophere.jpg" width="30px" alt="">
 
-            <ul class="nav">
-                <li class="nav-list"><a href="index.html">Home</a></li>
-                <li class="nav-list"><a href="src/Shop.html">Shop</a></li>
-                <li class="nav-list"><a href="src/Contact.html">Contact</a></li>
-                <li class="nav-list"><a href="src/Sign-In.html">Sign In</a></li>
-
+            <ul class="nav1">
+                <li class="nav-list1"><a href="index.html">Home</a></li>
+                <li class="nav-list1"><a href="src/Shop.html">Shop</a></li>
+                <li class="nav-list1"><a href="src/Contact.html">Contact</a></li>
+                <li class="nav-list1"><a href="src/Sign-In.html">Sign In</a></li>
+                <li class="nav-list1 cartBtn">2 Items- $20.65</li>
             </ul>
+        </div>
+
+        <div class="cart-page">
+            <div class="cart-info">
+                <div class="cart-item-name">
+                    Cart Item
+                </div>
+
+                <div class="cart-item-delete">×</div>
+
+                <div class="cart-item-price">
+                    $70.50
+                </div>
+            </div>
+
+            <div class="cart-info">
+                <div class="cart-item-name">
+                    Cart Item
+                </div>
+
+                <div class="cart-item-delete">×</div>
+
+                <div class="cart-item-price">
+                    $69.30
+                </div>
+            </div>
+
+            <div class="total">
+                <div class="total-text">
+                    Total
+                </div>
+
+                <div class="total-price">
+                    $139.80
+                </div>
+            </div>
+
+            <div class="cart-keys">
+                <div class="clear-cart">
+                    CLEAR CART
+                </div>
+
+                <div class="checkout">
+                    CHECKOUT
+                </div>
+            </div>
         </div>
 
         <div class="section1">
@@ -29,6 +78,8 @@
                 <p>with 50% off on all prices</p>
 
                 <a class="s1-btn btn" href="src/Shop.html">SHOP NOW</a>
+
+
             </div>
         </div>
 
@@ -144,5 +195,7 @@
             </div>
         </div>
     </div>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

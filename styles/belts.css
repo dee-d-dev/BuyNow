@@ -20,6 +20,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+.section2 {
+    margin-top: 1rem;
+}
+
 .section3 {
     display: grid;
     grid-template-columns: repeat(4, 200px);
@@ -27,7 +32,7 @@
     grid-column-gap: .4rem;
     grid-row-gap: 1rem;
     padding: 1rem 20%;
-    margin-top: 3rem;
+    margin-top: .5rem;
 }
 
 .item-preview{
@@ -38,14 +43,84 @@
 .item {
     display: grid;
     grid-template-rows: 80% 20%;
+    position: relative;
 }
 
 .item-img {
-    background-image: url(../styles/img/belts.jpg);
+    /* background-image: url(../styles/img/belts/belts.jpg); */
     width: 200px;
     height: 150px;
     background-size: cover;
     background-position: center;
+}
+
+.item-image {
+    width: 200px;
+    height: 150px;
+}
+
+.img-1 {
+    background-image: url(../styles/img/belts/hermes\ belt.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-2 {
+    background-image: url(../styles/img/belts/1.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 80%;
+    background-position: 20% 15%;
+}
+
+.img-3 {
+    background-image: url(../styles/img/belts/2.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-4 {
+    background-image: url(../styles/img/belts/3.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-5 {
+    background-image: url(../styles/img/belts/4.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: top;
+}
+
+.img-6 {
+    background-image: url(../styles/img/belts/5.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+    background-position: top;
+}
+
+.img-7 {
+    background-image: url(../styles/img/belts/6.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-8 {
+    background-image: url(../styles/img/belts/7.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: top;
 }
 
 .item-img img {
@@ -62,6 +137,6 @@
     font-size: .9rem;
 }
 
-.item-price {
+.item-full-price {
     font-weight: 900;
 }

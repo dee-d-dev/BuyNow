@@ -33,7 +33,7 @@
     align-items: center;
     background-color: var(--page-white);
     padding: .3rem;
-    /* position: fixed; */
+    
 }
 
 
@@ -50,6 +50,24 @@ a {
     color: var(--page-black);
 }
 
+.cartBtn {
+    border: 2px solid black;
+    border-radius: .2rem;
+    padding: .2rem .5rem !important;
+    font-weight: bold;
+    text-align: center;
+    color:black!important;
+}
+
+.cartBtn:hover {
+    background-color: black;
+    padding: .2rem .5rem !important;
+    font-weight: bold;
+    text-align: center;
+    color: var(--page-font-color1) !important;
+
+}
+
 .btn {
     padding: .8rem 1.5rem;
     background-color: var(--page-black);
@@ -63,10 +81,29 @@ a {
     list-style: none;
     justify-content: center;
     padding: .5rem 1rem;
+    position: relative;
+}
+
+.nav1 {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: .5rem 1rem;
+    position: relative;
 }
 
 .nav-list {
-    margin-left: 1rem;
+    margin-left: .2rem;
+    padding: 0 .7rem;
+}
+
+.nav-list1 {
+    margin-left: .2rem;
+    padding: 0 .7rem;
+}
+
+.nav-list:hover {
+    border-bottom: 1px solid cornflowerblue;
 }
 
 .contact {
@@ -92,4 +129,71 @@ a {
 
 hr {
     margin: 2rem;
+}
+
+.reg-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    
+}
+
+.reg-nav li {
+    margin-right: 1.5rem;
+}
+
+.active {
+    color: cornflowerblue !important;
+    border-bottom: 1px solid cornflowerblue;
+    padding-bottom: .4rem;
+
+}
+
+.item {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    position: relative;
+}
+
+
+.item-image {
+    width: 200px;
+    height: 150px;
+}
+
+.item-add {
+    background-color: rgba(0, 0, 0, 0.575);
+    position: absolute;
+    top: 58%;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    display: none;
+    transition: all .2s;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.item:hover .item-add {
+    display: block;
+}
+
+.item-add:hover {
+    background-color: rgba(228, 225, 225, 0.548);
+    color: black;
+}
+
+.success-msg {
+    background-color: green;
+    position: absolute;
+    top: 6.5rem;
+    right: 1rem;
+    padding: 2% 3%;
+    color: white;
+    border-radius: 1rem;
+    display: none;
 }

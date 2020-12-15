@@ -1,0 +1,81 @@
+.cart-page {
+    position: absolute;
+    min-height: 29rem;
+    background-color: rgb(245, 243, 243);
+    top: 2.8rem;
+    right: -2rem;
+    width: 0rem;
+    transition: all .3s ease-in;
+    /* overflow: hidden; */
+    z-index: 1000;
+    padding: 3% 1%;
+}
+
+.show-cart {
+    width: 18rem;
+
+}
+
+.cart-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+    margin-bottom: 2rem;
+    padding: .2rem;
+    text-align: center;
+}
+
+.cart-item-name {
+    padding: .5rem;
+    font-weight: 600;
+}
+
+.cart-item-price {
+    padding: .5rem;
+    font-weight: 300;
+}
+
+.cart-item-delete {
+    padding: .5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.total {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.cart-keys {
+    display: grid;
+    grid-template-columns: repeat(2, 110px);
+    font-weight: 700;
+}
+
+.clear-cart {
+    border: 2px solid black;
+    text-align: center;
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+    margin-right: .5rem;
+}
+
+.clear-cart:hover {
+    background-color: black;
+    color: white;
+}
+
+.checkout {
+    border: 2px solid red;
+    text-align: center;
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+    color: red;
+}
+
+.checkout:hover {
+    background-color: red;
+    color: white;
+}

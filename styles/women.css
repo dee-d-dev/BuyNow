@@ -19,6 +19,9 @@
 ::-webkit-input-placeholder {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.section2 {
+    margin-top: 1rem;
+}
 
 .section3 {
     display: grid;
@@ -27,7 +30,7 @@
     grid-column-gap: .4rem;
     grid-row-gap: 1rem;
     padding: 1rem 20%;
-    margin-top: 3rem;
+    margin-top: .5rem;
 }
 
 .item-preview{
@@ -42,6 +45,87 @@
 
 .item-img {
     background-image: url(../styles/img/glasses.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-1 {
+    background-image: url(../styles/img/belts/2.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url(../styles/img/slides/slides.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url(../styles/img/glasses/9.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: 140%;
+    background-position: center;
+}
+
+.img-4 {
+    background-image: url(../styles/img/glasses/4.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-5 {
+    background-image: url(../styles/img/watches/watch1.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-6 {
+    background-image: url(../styles/img/belts/7.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: top;
+}
+
+.img-7 {
+    background-image: url(../styles/img/pyr4.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: left;
+}
+
+.img-8 {
+    background-image: url(../styles/img/watches/1.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-9 {
+    background-image: url(../styles/img/watches/watch2.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-10 {
+    background-image: url(../styles/img/sneakers/sneakers4.jpg);
     width: 200px;
     height: 150px;
     background-size: cover;
