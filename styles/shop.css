@@ -226,3 +226,53 @@
 .item-price {
     font-weight: 900;
 }
+
+
+/**************RESPONSIVE*************************/
+
+@media screen and (max-width:425px ){
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(10, 200px);
+        grid-column-gap: .4rem;
+        grid-row-gap: 1rem;
+        padding: 1rem 2%;
+    }
+}
+
+@media screen and (max-width:375px ){
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(2, 175px);
+        grid-template-rows: repeat(10, 175px);
+        grid-column-gap: .4rem;
+        grid-row-gap: 1rem;
+        padding: 1rem 2%;
+    }
+
+    .item-img {
+        width: 175px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:320px ){
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(10, 175px);
+        grid-column-gap: .4rem;
+        grid-row-gap: 1rem;
+        padding: 1rem 2%;
+    }
+
+    .item-img {
+        width: 150px;
+        height: 120px;
+    }
+
+    .item-name{
+        font-size: 12px;
+    }
+}

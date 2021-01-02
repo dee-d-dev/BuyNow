@@ -6,6 +6,7 @@
     <title>Shophere | Shop</title>
     <link rel="stylesheet" href="../styles/utilities.css">
     <link rel="stylesheet" href="../styles/shop.css">
+    <link rel="stylesheet" href="../styles/cart-page.css">
 </head>
 <body>
 
@@ -19,9 +20,46 @@
                 <li class="nav-list1"><a href="#">Shop</a></li>
                 <li class="nav-list1"><a href="./Contact.html">Contact</a></li>
                 <li class="nav-list1"><a href="./Sign-In.html">Sign In</a></li>
-                <li class="nav-list1"><a href="src/Sign-In.html" class="cartBtn">2 Items- $20.65</a></li>
+                <li class="nav-list1 cartBtn"><span class="item-count">0</span> Item(s)- $<span class="show-price">0.00</span></li>
+
 
             </ul>
+        </div>
+        
+        <div class="cart-page">
+            <div class="close-btn">×</div>
+            <!-- <div class="cart-info">
+                <div class="cart-item-name">
+                    Cart Item
+                </div>
+    
+                <div class="cart-item-delete">×</div>
+    
+                <div class="cart-item-full-price">
+                    <span>$</span>
+                    <span class="cart-item-price">70.50</span>
+                </div>
+            </div> -->
+    
+            <div class="total">
+                <div class="total-text">
+                    Total:
+                </div>
+    
+                <div class="total-full-price">
+                    $<span class="t-f-p-p">0.00</span> 
+                </div>
+            </div>
+    
+            <div class="cart-keys">
+                <div class="clear-cart">
+                    CLEAR CART
+                </div>
+    
+                <div class="checkout">
+                    CHECKOUT
+                </div>
+            </div>
         </div>
     
         <div class="section1">
@@ -41,6 +79,7 @@
                 <li class="nav-list"><a href="./glasses.html">Glasses</a></li>
                 <li class="nav-list"><a href="./slides.html">Slides</a></li>
                 <li class="nav-list"><a href="./belts.html">Belts</a></li>
+                <li class="nav-list"><a href="./shoes.html">Shoes</a></li>
                 
             </ul>
         </div>
@@ -57,13 +96,9 @@
                     </div>
     
                     <div class="item-text">
-                        <div class="item-name">
-                            Xian Xuang belt
-                        </div>
+                        <div class="item-name">Xian Xuang belt</div>
     
-                        <div class="item-price">
-                            $18.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">18.00</span></div>
                     </div>
     
                 </div>
@@ -80,12 +115,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Fluffy slides
-                        </div>
+                            Fluffy slides</div>
     
-                        <div class="item-price">
-                            $70.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">70.00</span></div>
                     </div>
     
                 </div>
@@ -102,12 +134,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Lebron Elite 11
-                        </div>
+                            Lebron Elite 11</div>
     
-                        <div class="item-price">
-                            $25.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">25.00</span></div>
                     </div>
     
                 </div>
@@ -124,12 +153,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Pink watch
-                        </div>
+                            Pink watch</div>
     
-                        <div class="item-price">
-                            $4.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">4.00</span></div>
                     </div>
     
                 </div>
@@ -146,12 +172,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Black Pyramid 89
-                        </div>
+                            Black Pyramid 89</div>
     
-                        <div class="item-price">
-                            $32.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">32.00</span></div>
                     </div>
     
                 </div>
@@ -168,12 +191,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Gucci shades 
-                        </div>
+                            Gucci shades </div>
     
-                        <div class="item-price">
-                            $11.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">11.00</span></div>
                     </div>
     
                 </div>
@@ -190,12 +210,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Italian Leather Brogues
-                        </div>
+                            Italian Leather Brogues</div>
     
-                        <div class="item-price">
-                            $43.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">43.00</span></div>
                     </div>
     
                 </div>
@@ -212,12 +229,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Under armor thresh 5
-                        </div>
+                            Under armor thresh 5</div>
     
-                        <div class="item-price">
-                            $15.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">15.00</span></div>
                     </div>
     
                 </div>
@@ -234,12 +248,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Richard Millie Tourbillon
-                        </div>
+                            Richard Millie Tourbillon</div>
     
-                        <div class="item-price">
-                            $43.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">43.00</span></div>
                     </div>
     
                 </div>
@@ -256,12 +267,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Black pyramid shirt
-                        </div>
+                            Black pyramid shirt</div>
     
-                        <div class="item-price">
-                            $31.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">31.00</span></div>
                     </div>
     
                 </div>
@@ -279,12 +287,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Black pyramid zeritus 2019</div>
     
-                        <div class="item-price">
-                            $65.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">65.00</span></div>
                     </div>
     
                 </div>
@@ -301,12 +306,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Roar backpack</div>
     
-                        <div class="item-price">
-                            $43.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">43.00</span></div>
                     </div>
     
                 </div>
@@ -323,12 +325,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Versace XII Glasses</div>
     
-                        <div class="item-price">
-                            $56.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">56.00</span></div>
                     </div>
     
                 </div>
@@ -345,12 +344,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Tripper slippers</div>
     
-                        <div class="item-price">
-                            $32.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">32.00</span></div>
                     </div>
     
                 </div>
@@ -367,12 +363,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Panthera tee</div>
     
-                        <div class="item-price">
-                            $22.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">22.00</span></div>
                     </div>
     
                 </div>
@@ -389,12 +382,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Addidas Slides</div>
     
-                        <div class="item-price">
-                            $13.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">13.00</span></div>
                     </div>
     
                 </div>
@@ -411,12 +401,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Hermes Gold Belt</div>
     
-                        <div class="item-price">
-                            $47.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">47.00</span></div>
                     </div>
     
                 </div>
@@ -433,12 +420,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Balenciaga Triple S</div>
     
-                        <div class="item-price">
-                            $33.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">33.00</span></div>
                     </div>
     
                 </div>
@@ -455,12 +439,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Equality Summer edition</div>
     
-                        <div class="item-price">
-                            $11.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">11.00</span></div>
                     </div>
     
                 </div>
@@ -477,12 +458,9 @@
     
                     <div class="item-text">
                         <div class="item-name">
-                            Rolex Oyster Perpetual
-                        </div>
+                            Louis Vuitton Belt</div>
     
-                        <div class="item-price">
-                            $12.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">12.00</span></div>
                     </div>
     
                 </div>
@@ -501,9 +479,9 @@
                 <p>©2020</p>
             </div>
         </div>
-
-        
+           
     </div>
+    <script src="../js/index.js"></script>
     
 </body>
 </html>

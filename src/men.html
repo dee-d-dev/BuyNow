@@ -6,6 +6,8 @@
     <title>Sneakers</title>
     <link rel="stylesheet" href="../styles/utilities.css">
     <link rel="stylesheet" href="../styles/men.css">
+    <link rel="stylesheet" href="../styles/cart-page.css">
+
 </head>
 <body>
     <div class="header">
@@ -17,9 +19,47 @@
             <li class="nav-list1"><a href="./Shop.html">Shop</a></li>
             <li class="nav-list1"><a href="./Contact.html">Contact</a></li>
             <li class="nav-list1"><a href="./Sign-In.html">Sign In</a></li>
-            <li class="nav-list1"><a href="src/Sign-In.html" class="cartBtn">2 Items- $20.65</a></li>
+            <li class="nav-list1 cartBtn"><span class="item-count">0</span> Item(s)- $<span class="show-price">0.00</span></li>
+
 
         </ul>
+    </div>
+
+    <div class="cart-page">
+        <div class="close-btn">×</div>
+        
+        <!-- <div class="cart-info">
+            <div class="cart-item-name">
+                Cart Item
+            </div>
+
+            <div class="cart-item-delete">×</div>
+
+            <div class="cart-item-full-price">
+                <span>$</span>
+                <span class="cart-item-price">70.50</span>
+            </div>
+        </div> -->
+
+        <div class="total">
+            <div class="total-text">
+                Total
+            </div>
+
+            <div class="total-full-price">
+                $<span class="t-f-p-p">139.80</span> 
+            </div>
+        </div>
+
+        <div class="cart-keys">
+            <div class="clear-cart">
+                CLEAR CART
+            </div>
+
+            <div class="checkout">
+                CHECKOUT
+            </div>
+        </div>
     </div>
 
     <div class="section1">
@@ -64,13 +104,9 @@
                     </div>
     
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Paul Smith full Leather </div>
     
-                        <div class="item-price">
-                            ₦38.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">38.00</span></div>
                     </div>
     
                 </div>
@@ -87,13 +123,9 @@
                     </div>
     
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Yeezy Slides</div>
     
-                        <div class="item-price">
-                            $12.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">12.00</span></div>
                     </div>
     
                 </div>
@@ -110,13 +142,9 @@
                     </div>
     
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Air Jordan 6</div>
     
-                        <div class="item-price">
-                            $18.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">18.00</span></div>
                     </div>
     
                 </div>
@@ -133,13 +161,9 @@
                     </div>
     
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Black Pyramid 89</div>
     
-                        <div class="item-price">
-                            $98.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">98.00</span></div>
                     </div>
     
                 </div>
@@ -156,13 +180,9 @@
                     </div>
     
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Black Pyramid Zeritus 2019</div>
     
-                        <div class="item-price">
-                            $45.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">45.00</span></div>
                     </div>
     
                 </div>
@@ -179,13 +199,9 @@
                     </div>
     
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Black Pyramid Sky</div>
     
-                        <div class="item-price">
-                            $18.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">18.00</span></div>
                     </div>
     
                 </div>
@@ -202,13 +218,9 @@
                     </div>
 
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Black Pyramid maze</div>
     
-                        <div class="item-price">
-                            $8.00
-                        </div>
+                        <div class="item-full-price"> $<span class="item-price">8.00</span></div>
                     </div>
     
                 </div>
@@ -225,13 +237,9 @@
                     </div>
   
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Assassin Creed Sweatshirt</div>
     
-                        <div class="item-price">
-                            $180.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">80.00</span></div>
                     </div>
     
                 </div>
@@ -248,13 +256,9 @@
                     </div>
   
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Rolex burginan</div>
     
-                        <div class="item-price">
-                            $180.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">80.00</span></div>
                     </div>
     
                 </div>
@@ -271,13 +275,9 @@
                     </div>
   
                     <div class="item-text">
-                        <div class="item-name">
-                            Lebron elite 11
-                        </div>
+                        <div class="item-name">Roofer 5 ultra</div>
     
-                        <div class="item-price">
-                            $180.00
-                        </div>
+                        <div class="item-full-price">$<span class="item-price">80.00</span></div>
                     </div>
     
                 </div>
@@ -296,5 +296,8 @@
             <p>©2020</p>
         </div>
     </div>
+
+    <script src="../js/index.js"></script>
+
 </body>
 </html8

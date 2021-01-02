@@ -1,24 +1,9 @@
-.inner-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(243, 243, 243);
-    padding:.1rem 1rem;
-}
 
 .products-number span {
     font-weight: 700;
 }
 
-.search {
-    padding: .3rem .6rem;
-    outline: none;
-    border: .1rem solid black;
-}
 
-::-webkit-input-placeholder {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 .section2 {
     margin-top: 1rem;
@@ -132,4 +117,56 @@
 
 .item-price {
     font-weight: 900;
+}
+
+
+/****MOBILE*****/
+
+@media screen and (max-width: 425px) {
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(4, 200px);
+        grid-column-gap: .4rem;
+        grid-row-gap: 1rem;
+        padding: 1rem 2%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(2, 175px);
+        grid-template-rows: repeat(5, 175px);
+        grid-column-gap: .4rem;
+        grid-row-gap: 1rem;
+        padding: 1rem 2%;
+    }
+
+    .item-img {
+        width: 175px;
+        height: 120px;
+    }
+}
+
+
+@media screen and (max-width:320px ){
+    .section3 {
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(4, 175px);
+        grid-column-gap: .4rem;
+        grid-row-gap: 1rem;
+        padding: 1rem 2%;
+    }
+
+    .item-img {
+        width: 150px;
+        height: 120px;
+    }
+
+    .item-name{
+        font-size: 12px;
+    }
 }

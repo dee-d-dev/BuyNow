@@ -1,44 +1,64 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
 .cart-page {
     position: absolute;
-    min-height: 29rem;
-    background-color: rgb(245, 243, 243);
+    background-color: rgb(255, 255, 255);
     top: 2.8rem;
-    right: -2rem;
+    right: -3rem;
     width: 0rem;
     transition: all .3s ease-in;
     /* overflow: hidden; */
     z-index: 1000;
-    padding: 3% 1%;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    box-shadow: .1rem .1rem .5rem black;
 }
 
 .show-cart {
     width: 18rem;
+    min-height: 1rem;
+    right: .9rem;
 
 }
 
 .cart-info {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:repeat(2, 1fr);
-    margin-bottom: 2rem;
-    padding: .2rem;
-    text-align: center;
+    grid-template-columns: 180px 90px;
+    grid-template-rows:2 50px;
+    margin-bottom: .2rem;
+    padding: .1rem;
+    /* text-align: center; */
+    border-bottom: 1px solid black;
 }
 
 .cart-item-name {
-    padding: .5rem;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 .cart-item-price {
-    padding: .5rem;
-    font-weight: 300;
+    font-weight: 600;
+    font-size: .8rem;
 }
 
 .cart-item-delete {
-    padding: .5rem;
+    margin-top: .5rem;
+    margin-left: 1.5rem;
+    padding-bottom:.2rem ;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .total {
@@ -52,6 +72,7 @@
     display: grid;
     grid-template-columns: repeat(2, 110px);
     font-weight: 700;
+    cursor: pointer;
 }
 
 .clear-cart {
@@ -78,4 +99,37 @@
 .checkout:hover {
     background-color: red;
     color: white;
+}
+
+.close-btn {
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+}
+
+@media screen and (max-width:465px) {
+    .cart-page {
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 2.8rem;
+        left: 6rem;
+        width: 18rem;
+        transition: all .3s ease-in;
+        z-index: 1000;
+        padding: 1rem;
+        border: 1px solid lightgrey;
+        box-shadow: .1rem .1rem .5rem black;
+        display: none;
+    }
+
+    .show-cart {
+        width: 18rem;
+        min-height: 1rem;
+        right: .9rem;
+    }
+
+    .close-btn {
+        font-size: 2rem;
+        cursor: pointer;
+    }
 }

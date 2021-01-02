@@ -34,7 +34,7 @@ input {
 ::-webkit-input-placeholder {
     font-weight: 500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1rem;
+    font-size: 1rem !important;
 }
 
 .sign-in {
@@ -56,4 +56,106 @@ input {
     color: white;
     padding: 1rem;
     border-radius: .3rem;
+}
+
+
+@media screen and (max-width: 425px) {
+    .form-text {
+        padding: 0% 5%;
+        position: absolute;
+        left: 1rem;
+        margin-top: 2rem;
+        
+    }
+    
+    .form-text h3 {
+        font-size: 2rem;
+    }
+    
+    .form-text p {
+        position: absolute;
+        left: 15%;
+        margin-top: .6rem;
+    }
+    
+    form {
+        position: absolute;
+        top: 6rem;
+        left: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .form-text {
+        padding: 0% 1%;
+        position: absolute;
+        left: 1rem;
+        margin-top: 2rem;
+        
+    }
+    
+    .form-text h3 {
+        font-size: 2rem;
+    }
+    
+    .form-text p {
+        position: absolute;
+        left: 15%;
+        margin-top: .6rem;
+    }
+    
+    form {
+        position: absolute;
+        top: 6rem;
+        left: 0rem;
+    }
+
+    input {
+        padding: .5rem;
+        border: none;
+        border-bottom: 1px solid black;
+        margin: 1rem 0;
+        width: 21rem;
+        outline: none;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .form-text {
+        padding: 0% 1%;
+        position: absolute;
+        left: 2rem;
+        margin-top: 2rem;
+        
+    }
+    
+    .form-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .form-text p {
+        position: absolute;
+        left: 8%;
+        margin-top: .6rem;
+        font-size: .9rem;
+    }
+    
+    form {
+        position: absolute;
+        top: 6rem;
+        left: 0rem;
+    }
+
+    input {
+        padding: .5rem;
+        border: none;
+        border-bottom: 1px solid black;
+        margin: 1rem 0;
+        width: 16rem;
+        outline: none;
+        font-size: 1rem;
+    }
+
 }
